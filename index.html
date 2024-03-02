@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4eeda1be36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Lock.jpg" class="Logoo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Experience</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Front-<span1>End</span1> Developer</p>
+                <h1>I'M <span> MOHAMMED NAUMAN</span><br><span2>WELCOME TO MY SPACE</span2> </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="Images/unnamed.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p> <br> Hi there! I'm Nauman, 
+                        a Front-end Developer passionate about creating captivating web experiences. With expertise in HTML, CSS, and JavaScript, I specialize in crafting user-friendly interfaces that engage and delight users.
+                        <br><br>In addition to my development skills, I bring experience as an Open Source Compliance Analyst, ensuring software products adhere to licensing requirements. Certified in Salesforce and Microsoft technologies, I thrive on driving innovation and efficiency in cloud-based solutions.
+                           </p>
+                                    <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certification')">Certification</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills"> 
+                            <ui>
+                                <li><span>Front-End</span><br>HTML,CSS,JavaScript and React</li>
+                                <li><span>Back-End</span><br>ASP.Net and Node JS</li>
+                                <li><span>Devops</span><br>Docker, Kubernetes and Jenkins</li>
+                                <li><span>Version Control</span><br>Git, Github and Bitbucket</li>
+
+                            
+                            </ui>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ui>
+                                <li><span>2022-Present</span><br>Front-End Developer at Wipro</li>
+                                <li><span>2021-Present</span><br>Quality Analyst at Wipro</li>         
+                            </ui>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ui>
+                                <li><span>2018-2021</span><br>B.Tech in computer science from JNTU Anantapur</li>
+                                <li><span>2016-2017</span><br>Intermediate from Narayana Junior College</li>
+                                <li><span>2014-2015</span><br>10th from Ravindra Bharathi School</li>
+                            </ui>
+                        </div>
+
+                        <div class="tab-contents" id="certification">
+                            <ui>
+                                <li><span>Salesforce</span><br>Certified Administator 1 (ID: 2657145)</li>
+                                <li><span>Salesforce</span><br>Certified Platform Developer 1 (ID:2450276)</li>
+                                <li><span>Microsoft</span><br>AZ-900 Fundamentals (ID: C71664E1E8B0871D)</li>
+                            </ui>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Work Experience</h1>
+        <div class="services-list">
+            <div>
+                
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-End Developer</h2>
+                <P>With 2 years of experience as a Front-end Developer, I've been integral in developing and maintaining responsive web applications using HTML5, CSS3, and JavaScript. At Wipro, I collaborated closely with cross-functional teams to ensure seamless integration of front-end components, resulting in optimized performance and enhanced user experience. My expertise extends to leveraging JavaScript frameworks such as React.js to create dynamic and interactive web interfaces.</P>
+                <a href="https://www.linkedin.com/in/iamnauman/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-star"></i>
+                <h2>Quality Analyst</h2>
+                <P>As a Quality Analyst with two years of experience specializing in open source licenses, I've honed my skills in meticulously ensuring software compliance with various open source licenses. My role involves examining codebases, mitigating legal risks, and facilitating the adoption of open source components while adhering to licensing requirements. My expertise helps organizations navigate licensing issues and develop robust compliance strategies.</P>
+                <a href="https://www.linkedin.com/in/iamnauman/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-infinity"></i>
+                <h2>Devops Engineer</h2>
+                <P>In my one year as a DevOps Engineer, I've specialized in utilizing Jenkins and Docker to enhance software development and deployment workflows. This includes configuring Jenkins pipelines for continuous integration and delivery, as well as implementing Docker containers for efficient application deployment and management. My contributions have led to improved automation, faster release cycles, and enhanced collaboration between development and operations teams.</P>
+                <a href="https://www.linkedin.com/in/iamnauman/">Learn More</a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p> This app connects you to the talented people around the workd.
+                         Download it from play store</p>
+                    <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                    <h3>Music App</h3>
+                    <p> This app connects you to the talented people around the workd.
+                        Download it from play store
+                    </p>
+                    <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+               </div>
+                    <div class="work">
+                        <img src="Images/work-3.png">
+                        <div class="layer">
+                    <h3>Online Shoppind App</h3>
+                    <p> This app connects you to the talented people around the workd.
+                        Download it from play store
+                    </p>
+                    <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.linkedin.com/in/iamnauman/" class="btn">See More</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>Md.Nauman1920@Gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>+919000367864</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://Instagram.com/n.a.u.m.a.n.n"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/iamnauman/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1IVX5NLD520wxgk0qfj2KLP9HvZ9djMfV/view?usp=drive_link" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>    
+            <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <P>Copyright © Mohammed Nauman</P>
+    </div>
+</div>
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby8pprT6foOOTGl8NdVaXkwRfg6JA9fyngQKStPjRjt9gicxoYbVo5HtYCQfWdvn1o0NQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+             msg.innerHTML = "Message sent successfully";
+             setTimeout(function(){
+                msg.innerHTML = "";
+             }, 3000); 
+
+             form.reset(); 
+        })
+        .catch(error => console.error('Error!', error.message));
+    });
+</script>
+
+</body>
+</html>
