@@ -12,8 +12,8 @@ html{
 
 @font-face {
     font-family: mrrobot;
-    src: url(https://github.com/Naumaxxn/Nauman-Portfolio/blob/main/MR_ROBOT%5B1%5D.ttf) format('woff2'),
-         url(https://github.com/Naumaxxn/Nauman-Portfolio/blob/main/MR_ROBOT%5B1%5D.ttf) format('woff');
+    src: url(https://github.com/Naumaxxn/Nauman-Portfolio/blob/main/MR_ROBOT%5B1%5D.ttf) format(mrrobot),
+         url(https://github.com/Naumaxxn/Nauman-Portfolio/blob/main/MR_ROBOT%5B1%5D.ttf) format(mrrobot);
 }
 
 body {
