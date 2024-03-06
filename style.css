@@ -9,6 +9,17 @@ html{
     scroll-behavior: smooth;
 }
 
+
+@font-face {
+    font-family: mrrobot;
+    src: url(https://github.com/Naumaxxn/Nauman-Portfolio/blob/main/MR_ROBOT%5B1%5D.ttf) format('woff2'),
+         url(https://github.com/Naumaxxn/Nauman-Portfolio/blob/main/MR_ROBOT%5B1%5D.ttf) format('woff');
+}
+
+body {
+    font-family: mrrobot, sans-serif;
+}
+
 body{
     background-color: black;
     color: #fff;
